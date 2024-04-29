@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100vw;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    margin: 0 0 0 8% ;
+}
+
+header {
+  width: 100vw;
+  height: 7vh;
+  background-color: #000066;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 6% 0 0;
+}
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+
+}
+
+footer {
+    background-color: #000044;
+}
+.contentFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+}
+
+.contentFooter h1 {
+    margin: 10px;
+
+}
+
+.contentFooter h1,
+.contentFooter span {
+    color:#FFF
+}
+
+.footerF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00002b;
+    height: 40px;
+
+}
+
+.footerF p {
+    color: #505050;    
+
+}
+.footerF strong {
+    color: #505050;
+
+} 
+.footerF a:hover,
+.footerF strong:hover {
+    background-color: transparent;
+    color: #fff;
+    text-decoration: underline;
+
+}
+
+.content {
+    height: 93vh;
+    margin: 20px 0 0 0;
+    padding: 0 5%;
+    display: flex;
+}
+
+.logo {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 6% ;
+}
+
+.logo h1 {
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.menuUl {
+    display: flex;
+    flex-direction: row;
+}
+
+.manuLi {
+    
+    margin: 0 15px 0 0 ;
+    border-radius: 0;
+    padding: 8px 8px ;
+    transition: .5s;
+}
+
+.manuLi:hover {
+    border-radius: 10px;
+    background-color: rgb(253, 253, 253);
+    color: #000066;
+}
+
+
+.img {
+    overflow: hidden;
+}
+
+.img img {
+    width: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.infoPessoal {
+   margin-top: 10px;
+}
+
+.infoPessoal h3 {
+    font-size: 13px;
+}
+
+.infoPessoal span {
+    font-weight: normal; 
+    
+}
+ 
+
+.contentInfo {
+    width: 80%;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+
+.contentInfo p {
+    margin-top: 1em;
+    width: 70%;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.contentInfo p::before {
+    content: '';
+    margin: 20px;
+}
+
+.contentInfo h2 {
+    font-size: 40px;
+    color: #000066;
+
+}
+
+
+
+

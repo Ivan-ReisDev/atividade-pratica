@@ -1,0 +1,78 @@
+.contentCard {
+    display: flex;
+    margin-top: 1em;
+
+}
+.card {
+
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 420px;
+    max-height: 420px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden; 
+    margin: 10px;
+}
+
+.card img {
+    width: 250px;
+    
+
+}
+.cardImg {
+    overflow: hidden;
+    height: 33%;
+}
+
+.cardInfo {
+    height: 67%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.divLegenda {
+    width: 100%;
+    height: 85%;
+
+}
+
+.cardInfo h3 {
+    margin: 10px 0;
+    color: #000066;
+    font-size: 16px;
+}
+
+.cardInfo p {
+    text-align: start;
+    font-size: 15px;
+    color: #3f3f3f;
+}
+
+.cardInfo p::before {
+    content: "";
+    margin-left: 15px;
+
+}
+
+.cardInfo a {
+    letter-spacing: 1px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    color: #e4e4e4;
+    justify-content: center;
+    background-color: #1057c2;
+    width: 80px;
+    margin:  10px 0 0 0;
+    padding: 10px;
+}
+
+.cardInfo a:hover {
+    background-color: #0d4291;
+    color: #fff;
+
+
+}
