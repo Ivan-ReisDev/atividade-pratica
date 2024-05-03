@@ -1,4 +1,4 @@
-
+/* Configuração principal do formulário */
 form {
     width: 500px;
     display: flex;
@@ -7,9 +7,20 @@ form {
     justify-content: center;
 }
 
+/* Tag address indica um conteúdo que pode ser um meio de contato como o e-mail e telefone, */
+address {
+    margin-top: 15px;
+}
+
+address a,
+address strong {
+    color: #000066;
+}
+
+/* Aqui o uso do type serve para indicar que iremos modificar todos os inpus do tipo submit */
 input[type="submit"] {
-    padding: 15px 0 ;
-    background-color: #000066;   
+    padding: 15px 0;
+    background-color: #000066;
     width: 100%;
     font-weight: bold;
     color: #ffffff;
@@ -17,11 +28,13 @@ input[type="submit"] {
     border: none;
     cursor: pointer;
 }
+
 textarea {
     padding: 3px;
 
 }
 
+/* Início da configuração de inputs */
 .input {
 
     display: flex;
@@ -41,11 +54,13 @@ textarea {
 
 }
 
+/* A partir desse momento é iniciado configuração responsiva para mudanças de tela e adaptação a todos os dispositivos. */
+
 @media (max-width: 550px) {
 
-form {
-    width: 90%;
+    form {
+        width: 90%;
 
-}
+    }
 
 }

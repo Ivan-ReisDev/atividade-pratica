@@ -1,3 +1,4 @@
+/* CSS com o ponto indica que estou chamando uma classe do documento HTML. */
 .contentCard {
     display: flex;
     flex-wrap: wrap;
@@ -5,6 +6,7 @@
     align-items: center;
     margin-top: 1em;
 }
+
 .card {
     flex: 1 1 250px;
     background-color: rgb(255, 255, 255);
@@ -14,15 +16,17 @@
     max-height: 420px;
     border-radius: 10px;
     border: 1px solid #ccc;
-    overflow: hidden; 
+    overflow: hidden;
     margin: 10px;
 }
 
+/* A classe seguida de uma tag HTML indica que estou querendo alterar todos os elementos img dentro do elemento pai que é a classe card. */
 .card img {
     width: 250px;
-    
+
 
 }
+
 .cardImg {
     overflow: hidden;
     height: 33%;
@@ -69,10 +73,11 @@
     justify-content: center;
     background-color: #1057c2;
     width: 80px;
-    margin:  10px 0 0 0;
+    margin: 10px 0 0 0;
     padding: 10px;
 }
 
+/* O hover indica que estou criando um efeito para alterar a configuração do elemento ao passar o mouse por cima do elemento.*/
 .cardInfo a:hover {
     background-color: #0d4291;
     color: #fff;

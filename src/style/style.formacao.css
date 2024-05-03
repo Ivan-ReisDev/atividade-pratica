@@ -1,4 +1,5 @@
-.main  {
+/* Início do conteiner principal da página. */
+.main {
     width: 100%;
     height: auto;
     min-height: 90vh;
@@ -16,8 +17,8 @@
 }
 
 .main h1 {
-        font-size: 40px;
-        color: #000066;
+    font-size: 40px;
+    color: #000066;
 }
 
 .main h2 {
@@ -25,8 +26,10 @@
 
 }
 
+/* Configuração dos cursos. */
+
 .curso ul {
-    padding:  1em 2em;    
+    padding: 1em 2em;
 
 }
 

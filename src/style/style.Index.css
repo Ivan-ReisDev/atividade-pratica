@@ -1,33 +1,32 @@
+/* O * indoque que estou criando uma configuração global para página html. */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+/* Ao chamar o body estou criando uma configuração básica para todos os elementos dentro do corpo da página. */
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 h1,
 h2,
 h3 {
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-    margin:0;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  width: 100vw;
-  height: 60px;
-  background-color: #000066;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  color: #fff;
+    width: 100vw;
+    height: 60px;
+    background-color: #000066;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
 }
 
 nav {
@@ -36,6 +35,7 @@ nav {
     justify-content: center;
     margin: 0 6% 0 0;
 }
+
 li {
     list-style: none;
 
@@ -51,6 +51,9 @@ footer {
     background-color: #000044;
     margin-top: 2em;
 }
+
+/* Configuração do footer */
+
 .contentFooter {
     display: flex;
     flex-direction: column;
@@ -67,7 +70,7 @@ footer {
 
 .contentFooter h1,
 .contentFooter span {
-    color:#FFF
+    color: #FFF
 }
 
 .footerF {
@@ -80,13 +83,15 @@ footer {
 }
 
 .footerF p {
-    color: #505050;    
+    color: #505050;
 
 }
+
 .footerF strong {
     color: #505050;
 
-} 
+}
+
 .footerF a:hover,
 .footerF strong:hover {
     background-color: transparent;
@@ -94,6 +99,8 @@ footer {
     text-decoration: underline;
 
 }
+
+/* Configuração do cotent principal da página */
 
 .content {
     height: auto;
@@ -107,7 +114,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 0 0 6% ;
+    margin: 0 0 0 6%;
 }
 
 .logo h1 {
@@ -116,16 +123,18 @@ footer {
     font-size: 23px;
 }
 
+/* configuração do menu e da lista da página. */
+
 .menuUl {
     display: flex;
     flex-direction: row;
 }
 
 .manuLi {
-    
-    margin: 0 15px 0 0 ;
+
+    margin: 0 15px 0 0;
     border-radius: 0;
-    padding: 8px 8px ;
+    padding: 8px 8px;
     transition: .5s;
 }
 
@@ -145,8 +154,9 @@ footer {
     border-radius: 15px;
 }
 
+/* Início da configuração para o content de informações. */
 .infoPessoal {
-   margin-top: 10px;
+    margin-top: 10px;
 }
 
 .infoPessoal h3 {
@@ -154,7 +164,7 @@ footer {
 }
 
 .infoPessoal span {
-    font-weight: normal;  
+    font-weight: normal;
 }
 
 .contentInfo {
@@ -165,7 +175,7 @@ footer {
     align-items: center;
     flex-direction: column;
 
-    
+
 }
 
 .contentInfo p {
@@ -174,6 +184,8 @@ footer {
     line-height: 30px;
     text-align: justify;
 }
+
+/* O before é usado aqui para criar uma margem a esquerda na primeira linha do paragráfo */
 
 .contentInfo p::before {
     content: '';
@@ -187,8 +199,9 @@ footer {
 
 }
 
+/* A partir desse momento é iniciado configuração responsiva para mudanças de tela e adaptação a todos os dispositivos. */
 @media (max-width: 761px) {
-    
+
     header {
         flex-direction: column;
         justify-content: center;
@@ -218,26 +231,31 @@ footer {
         margin: 0;
 
     }
+
     .content {
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
     }
+
     .img {
         display: flex;
         justify-content: center;
         align-items: center;
 
     }
+
     .img img {
         width: 200px;
 
     }
+
     .contentInfo {
         width: 100%;
 
     }
+
     .contentInfo h2 {
         font-size: 30px;
         margin-top: 1em;
@@ -256,12 +274,12 @@ footer {
 
     .contentFooter h1 {
         margin: 10px;
-    
+
     }
-    
+
     .contentFooter h1 {
         font-size: 25px;
-       
+
     }
 
     .contentFooter span {
@@ -272,7 +290,7 @@ footer {
         font-size: 13px;
 
     }
-    
+
 
 }
 
@@ -287,6 +305,5 @@ footer {
         font-size: 12px;
 
     }
- 
-}
 
+}
