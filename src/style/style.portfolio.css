@@ -1,11 +1,14 @@
 .contentCard {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin-top: 1em;
-
 }
 .card {
-
+    flex: 1 1 250px;
     background-color: rgb(255, 255, 255);
+    max-width: 250px;
     width: 250px;
     height: 420px;
     max-height: 420px;

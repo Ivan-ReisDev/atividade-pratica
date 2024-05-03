@@ -40,3 +40,12 @@ textarea {
     padding: 5px;
 
 }
+
+@media (max-width: 550px) {
+
+form {
+    width: 90%;
+
+}
+
+}
